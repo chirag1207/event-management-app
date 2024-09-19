@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/buttonAddEvent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Event"/>
+    <Button
+        android:id="@+id/buttonAddEventSchedule"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Event Schedule"/>
+
+    <Button
+        android:id="@+id/buttonShowEvents"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Show All Events"/>
+
+    <Button
+        android:id="@+id/buttonDeleteEvent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Delete Event"/>
+
+    <Button
+        android:id="@+id/buttonViewParticipants"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Participants"/>
+</LinearLayout>

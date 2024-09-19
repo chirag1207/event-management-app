@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Event"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"/>
+
+    <EditText
+        android:id="@+id/editTextEventName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Event Name"
+        android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/editTextEventDetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Event Details"
+        android:inputType="textMultiLine"
+        android:lines="4"
+        android:maxLines="6"/>
+
+    <Button
+        android:id="@+id/buttonSubmitEvent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit Event"
+        android:background="?attr/colorAccent"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="20dp"/>
+</LinearLayout>
